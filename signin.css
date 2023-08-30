@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=');
+
+*{
+    margin: 0;
+    /* padding: 0;font-family: poppins,sans-serif; */
+}
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background:url(lp2.png) ;
+    background-position: center;
+    background-size: cover;
+}
+ .form-box{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background:transparent;
+    border: 2px solid  #cccffc;;
+    border-radius:20px ;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ h2{
+    font-size: 2em;
+    color: white;
+    text-align: center;
+ }
+ .inputbox{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid white;
+ }
+ .inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 11%;
+    transform: translate(-50%);
+    color: white;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+ }
+ input:focus ~ label,
+ input:valid  ~ label{
+    top: -5px;
+ }
+ .inputbox input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: white;
+    padding: 0 35px 0 5px;
+ }
+ .inputbox ion-icon{
+    position: absolute;
+    right: 8px;
+    color: white;
+    font-size: 1.2em;
+    top: 20px;
+ }
+ .forget{
+    margin: -15px 0 15px;
+    color: white;
+    font-size: .9em;
+    display: flex;
+    justify-content: center;
+ }
+ .forget label input{
+    margin-right: 3px;
+ }
+ .forget label a{
+    color: white;
+    /* text-decoration: none; */
+ }
+ .forget label a:hover{
+    text-decoration: underline;
+ }
+.btn1{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #0a68f5;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+.btn1:hover{
+   background-color: #cfe2ff;
+   color: #0a68f5;
+}
+.register{
+    font-size: .9em;
+    color: white;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+.register p a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.register p a:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+    background: rgb(0,0,0);
+}
+.container-fluid{
+    margin: 0px 185px;
+    padding: 0px 22px;
+}
+/* .collapse{
+     /* justify-content: center; */
+.navbar-nav {
+    justify-content: center;
+    
+}
+.nav:hover .nav-item{
+    filter: blur(5px);
+}
+.nav:hover .nav-item:hover{
+    filter: blur(0px);
+}
+#home-tab-pane{
+    background: url(homee.png);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* #feature-tab-pane{
+   
+} */
+.card-header{
+    background: #0a68f5;
+    opacity: 0.5;
+}
+#pricing-tab-pane{
+    background: url(heartloon.jpeg );
+    /* height: 100vh; */
+    background-size: auto;
+    margin-top: 100px;
+}
+
+.pricing-header{
+    height: 100vh;
+}
+
+#product-tab-pane{
+    margin-top: 100px;
+}
+#pro-card {
+    /* width: 18rem; */
+    height: 25rem;
+}
+/* .card-img-top{
+    width: 100%;
+    height: 100%;
+} */
+.card, img{
+    
+        display: block;
+        max-width: 100%;
+        margin: 1.5rem  auto;
+    
+  }
+ /* .card-body{
+    max-width:  300px;
+  } */
+  
+  .img-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
